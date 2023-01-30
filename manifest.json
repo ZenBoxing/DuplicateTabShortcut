@@ -5,5 +5,17 @@
     "background" : {
         "service_worker" : "background.js",
         "type": "module"
-    }
+    },
+    "commands": {
+        "duplicate-tab": {
+            "suggested_key":{
+                "default" : "Alt+Shift+D",
+                "mac" : "Alt+Shift+D"
+            },
+            "description": "Duplicates Current Tab"
+        }
+    },
+    "permissions" : [
+        "tabs"
+    ]
 }
